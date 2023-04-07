@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1680883995
+count: 1
+index:
+  nanu:
+    storage_key: nanu
+    storage_timestamp: 1680883995
+    key: nanu
+    email: naschanuee@gmail.com

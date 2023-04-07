@@ -1,0 +1,11 @@
+state: enabled
+email: naschanuee@gmail.com
+fullname: 'Na Nu'
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$YnxB8HHta8bLJhDur3m0TuMzqrwBnipH9p0AwefNgoWg2Zik2MO.y
