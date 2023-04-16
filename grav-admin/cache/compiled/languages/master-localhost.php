@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1680874241,
-    'checksum' => '6e679bcd4403da45deb101f1ec80b716',
+    'timestamp' => 1681651311,
+    'checksum' => 'd763cfff8da3b3273ebf6995d9a70e39',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -194,6 +194,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/languages.yaml',
                 'modified' => 1679506277
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/languages.yaml',
+                'modified' => 1681651306
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
@@ -3378,6 +3382,9 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'BUILTIN_CSS' => 'Use built in CSS',
                 'BUILTIN_CSS_HELP' => 'Include the CSS provided by the Problems plugin'
             ],
+            'PLUGIN_DEVTOOLS' => [
+                'COLLISION_CHECK' => 'Online Name Collision Check'
+            ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Error',
                 'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.',
@@ -6256,6 +6263,9 @@ L\'**authentification à deux facteurs** est activée sur ce compte. Veuillez ut
                 'DESTINATION_NOT_SPECIFIED' => 'La destination n’est pas indiquée.',
                 'INVALID_MIME_TYPE' => 'Le type MIME %s pour le fichier %s n’est pas accepté.',
                 'INVALID_FILE_EXTENSION' => 'L’extension pour le fichier %s n’est pas acceptée.'
+            ],
+            'PLUGIN_DEVTOOLS' => [
+                'COLLISION_CHECK' => 'Vérification en ligne de collision de noms'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Erreur',

@@ -2,23 +2,24 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/Applications/MAMP/htdocs/grossesproblem/grav-admin/user/data/flex/indexes/pages.json',
-    'modified' => 1680883995,
-    'size' => 635,
+    'modified' => 1681651280,
+    'size' => 806,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1680883995,
-        'count' => 3,
+        'timestamp' => 1681651280,
+        'count' => 4,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1680873535,
+                'storage_timestamp' => 1680884453,
                 'children' => [
                     '01.home' => 1680873535,
-                    '02.typography' => 1680873533
+                    '02.typography' => 1680873533,
+                    '03.galery' => 1680884453
                 ],
-                'checksum' => 'db19cbd98754588255b2251dd1ac62b5'
+                'checksum' => 'ad385a811050833379bcb21ab400ee83'
             ],
             '01.home' => [
                 'key' => 'home',
@@ -43,6 +44,13 @@ return [
                     ]
                 ],
                 'checksum' => '4fe25df033b4f43324e56e5ac85922c6'
+            ],
+            '03.galery' => [
+                'key' => 'galery',
+                'storage_key' => '03.galery',
+                'template' => NULL,
+                'storage_timestamp' => 1680884453,
+                'checksum' => 'bfecf187e7906969f1fa9a9f777ee925'
             ]
         ]
     ]

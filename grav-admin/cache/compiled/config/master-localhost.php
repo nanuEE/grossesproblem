@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1680883996,
-    'checksum' => '1cec8a6140c59c846d26adadc5cf4f13',
+    'timestamp' => 1681653764,
+    'checksum' => 'e590d0facca04f2319190c7bfe0ec808',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1680883995
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/config/plugins/devtools.yaml',
+                'modified' => 1681653719
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -19,7 +23,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1679506277
+                'modified' => 1681653760
+            ],
+            'themes/crazy' => [
+                'file' => 'user/config/themes/crazy.yaml',
+                'modified' => 1681653764
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -77,6 +85,10 @@ return [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1679506277
             ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1681651306
+            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1679506277
@@ -94,6 +106,10 @@ return [
             'themes/quark' => [
                 'file' => 'user/themes/quark/quark.yaml',
                 'modified' => 1679506277
+            ],
+            'themes/crazy' => [
+                'file' => 'user/themes/crazy/crazy.yaml',
+                'modified' => 1681651560
             ]
         ]
     ],
@@ -112,6 +128,12 @@ return [
                 'spectre' => [
                     'exp' => false,
                     'icons' => false
+                ]
+            ],
+            'crazy' => [
+                'enabled' => true,
+                'dropdown' => [
+                    'enabled' => true
                 ]
             ]
         ],
@@ -301,6 +323,10 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'devtools' => [
+                'enabled' => true,
+                'collision_check' => true
             ],
             'error' => [
                 'enabled' => true,
@@ -3869,7 +3895,7 @@ node_modules'
                 'dirs' => [
                     0 => 'page://'
                 ],
-                'theme' => 'quark',
+                'theme' => 'crazy',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -4053,7 +4079,8 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 8388608
             ],
             'session' => [
                 'enabled' => true,
